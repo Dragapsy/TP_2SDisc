@@ -23,10 +23,10 @@ public class IntTab {
         }
     }
 
-    public IntTab(int size, int e){
-        this.size=size;
+    public IntTab(int s, int e){
+        this.size=s;
         this.emptyElement=e;
-        for(int i=0; i<size; i++){
+        for(int i=0; i<s; i++){
             tab[i]=emptyElement;
         }
     }
